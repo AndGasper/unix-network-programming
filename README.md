@@ -11,6 +11,12 @@ docker build -t unix-networking-programming-container .
 docker run -it --rm --name running-unix-networking-programming-container unix-networking-programming-container 
 ```
 
+```
+winpty docker run -it --rm --name running-unix-networking-programming-container unix-networking-programming-container
+```
+
+winpty docker run -it -d --name running-unix-networking-programming-container unix-networking-programming-container
+
 Ah HA!
 ```
 Clean up (--rm)

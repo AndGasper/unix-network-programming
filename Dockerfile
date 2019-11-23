@@ -9,4 +9,6 @@ RUN /usr/src/unix-networking-programming/config.h
 
 RUN gcc -o daytimetcpcli /usr/src/unix-networking-programming/intro/daytimetcpcli.c
 
-CMD ["./intro/daytimetcpcli"]
+RUN ls -alt /usr/src/unix-networking-programming
+
+CMD ["/usr/src/unix-networking-programming/daytimetcpcli"]
