@@ -11,4 +11,4 @@ RUN gcc -o daytimetcpcli /usr/src/unix-networking-programming/intro/daytimetcpcl
 
 RUN ls -alt /usr/src/unix-networking-programming
 
-CMD ["/usr/src/unix-networking-programming/daytimetcpcli"]
+CMD ["/usr/src/unix-networking-programming/daytimetcpcli", "127.0.0.1"]
